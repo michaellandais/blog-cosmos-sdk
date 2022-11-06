@@ -23,6 +23,8 @@ export interface BlogComment {
   createdAt?: number;
 }
 
+export type BlogMsgCreateCommentResponse = object;
+
 export interface BlogMsgCreatePostResponse {
   /** @format uint64 */
   id?: string;
